@@ -1,7 +1,7 @@
 {
-  "name": "googlebooks-app",
+  "name": "book-search-engine",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application that utilizes Google Books API to search for books",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -10,14 +10,23 @@
     "build": "cd client && npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "AngadBatth",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
   "dependencies": {
+    "mongodb": "^5.7.0",
     "apollo-server-express": "^3.11.1",
     "express": "^4.17.2",
     "graphql": "^15.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngadBatth/book-search-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AngadBatth/book-search-engine/issues"
+  },
+  "homepage": "https://github.com/AngadBatth/book-search-engine"
 }
