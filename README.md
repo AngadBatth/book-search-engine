@@ -18,7 +18,8 @@ This is a web application designed for a User to search books using Google Books
 ## Installation
 Clone the repository and ensure you have Node.js installed.<br /><br />
 Once you've done that, open the terminal and run `npm install` to install the dependencies. <br />
-Then, run `npm run start` to start the application into a local session @ https://localhost:3000/ <br /><br />
+Then, run `npm run start` to start the application into a local session @ https://localhost:3001/ <br /><br />
+You will also be able to add `/graphql` at the end of the URL to go into Apollo @ https://localhost:3001/graphql <br /><br />
 
 ## Usage
 ![homepage](./assets/images/homepage.jpg)
